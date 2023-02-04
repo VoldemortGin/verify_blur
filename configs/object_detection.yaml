@@ -1,0 +1,16 @@
+
+task_name: object_detection
+blur_threshold: 2
+canny_threshold_1: 100
+canny_threshold_2: 200
+padding: 200
+
+base_dir: /Users/linhan/PycharmProjects/verify_blur
+labelme_dir: data/case_ls
+temp_dir: data/temp_crop
+#save_dir: data/temp_crop
+original_image: data/generate_blur
+blur_dir: data/blur
+distinct_dir: data/distinct
+blur_crop_dir: data/blur_crop
+distinct_crop_dir: data/distinct_crop

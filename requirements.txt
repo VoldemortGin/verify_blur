@@ -1,0 +1,7 @@
+hydra
+hydra-core
+numpy>=1.21
+opencv-python==4.5.5.62
+pathlib>=1
+fastai==2.7.10
+omegaconf==2.3.0
