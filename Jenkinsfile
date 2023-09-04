@@ -4,6 +4,7 @@ pipeline {
     stage('initial') {
       steps {
         echo 'This is minimal pipeline. '
+        sh 'pip install -r requirements.txt'
       }
     }
 
